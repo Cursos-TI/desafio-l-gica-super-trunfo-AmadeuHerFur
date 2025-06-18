@@ -48,23 +48,93 @@ int main() {
    float capita2 = (float) pib2 / populacao2;
    float poder2 = (float) 1/densidade2 + populacao2 + area2+ pib2 + ponto2 + capita2 
 
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
+   \\Essa segunda parte será dedicada á comparação de valores entre as cartas
 
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
+   \\População
+    
+    if (populacao1>populacao2)
+    {
+    printf("A Carta 01 VENCEU\n");
+    } 
 
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
+    else if(populacao1>populacao2)
+    {
+    printf("A Carta 02 VENCEU\n");
+    }
+    
+    else if(populacao1==populacao2)
+    {
+    printf ("EMPATE entre Cartas 01 e 02\n");
+    }
 
+    \\Área
+       
+    if (area1>area2)
+    {
+    printf("A Carta 01 VENCEU\n");
+    } 
+
+    else if(area1>area2)
+    {
+    printf("A Carta 02 VENCEU\n");
+    }
+    
+    else if(area1==area2)
+    {
+    printf ("EMPATE entre Cartas 01 e 02\n");
+    }
+    
+    \\Pontos Turísticos
+    
+    if (ponto1>ponto2)
+    {
+    printf("A Carta 01 VENCEU\n");
+    } 
+
+    else if(ponto1>ponto2)
+    {
+    printf("A Carta 02 VENCEU\n");
+    }
+    
+    else if(ponto1==ponto2)
+    {
+    printf ("EMPATE entre Cartas 01 e 02\n");
+    }
+
+    \\PIB
+    
+    if (pib1>pib2)
+    {
+    printf("A Carta 01 VENCEU\n");
+    } 
+
+    else if(pib1>pib2)
+    {
+    printf("A Carta 02 VENCEU\n");
+    }
+    
+    else if(pib1==pib2)
+    {
+    printf ("EMPATE entre Cartas 01 e 02\n");
+    }
+
+    \\Densidade Populacional
+ 
+    if (densidade1>densidade2)
+    {
+    printf("A Carta 01 VENCEU\n");
+    } 
+
+    else if(densidade1>densidade2)
+    {
+    printf("A Carta 02 VENCEU\n");
+    }
+    
+    else if(densidade1==densidade2)
+    {
+    printf ("EMPATE entre Cartas 01 e 02\n");
+    }
+    
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
