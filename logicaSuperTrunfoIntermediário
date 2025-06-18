@@ -1,11 +1,12 @@
 #include <stdio.h>
 inicio do teste
 // Desafio Super Trunfo - Intermediário
+//Alterações do nível MESTRE serão implementadas aqui devido à continuidade das funções propostas
 //Será utilizada a estrutura inicial do primeiro desafio
 
 int main() {
     
-   \\Primeira Carta
+   //Primeira Carta
     
    printf("Informações referentes ao estado A\n");
    printf("Informe o Código para a primeira carta:\n");
@@ -25,7 +26,7 @@ int main() {
    float capita1 = (float) pib1 / populacao1;
    float poder1 = (float) 1/densidade1 + populacao1 + area1+ pib1 + ponto1 + capita1 
     
-   \\Segunda Carta 
+   //Segunda Carta 
     
    printf("Informações referentes ao estado B\n");
    printf("Informe o Código a segunda carta:\n");
@@ -45,9 +46,9 @@ int main() {
    float capita2 = (float) pib2 / populacao2;
    float poder2 = (float) 1/densidade2 + populacao2 + area2+ pib2 + ponto2 + capita2 
 
-  \\ Visualização dos dados das duas cartas
+  //Visualização dos dados das duas cartas
 
-  \\ Primeira Carta 
+  //Primeira Carta 
    printf("A primeira carta terá os seguintes valores:\n");
    printf("Código da Carta: %s\n" , codigo1 );
    printf("Cidade: %s\n", cidade1);
@@ -56,7 +57,7 @@ int main() {
    printf("PIB: %f\n", pib1);
    printf("Pontos Turísticos: %d\n" , ponto1);
 
-  \\Segunda Carta
+  //Segunda Carta
    printf("A segunda carta terá os seguintes valores:",\n);
    printf("Código da Carta: %s\n" , codigo2); 
    printf("Cidade: %s\n", cidade2);
@@ -66,7 +67,7 @@ int main() {
    printf("Pontos Turísticos: %d\n" , ponto2); 
 
 
-  \\Comparativo de Cartas
+  //Comparativo de Cartas
 
    int = escolha
 
