@@ -57,7 +57,7 @@ int main() {
     printf("A Carta 01 VENCEU\n");
     } 
 
-    else if(populacao1>populacao2)
+    else if(populacao1<populacao2)
     {
     printf("A Carta 02 VENCEU\n");
     }
@@ -74,7 +74,7 @@ int main() {
     printf("A Carta 01 VENCEU\n");
     } 
 
-    else if(area1>area2)
+    else if(area1<area2)
     {
     printf("A Carta 02 VENCEU\n");
     }
@@ -91,7 +91,7 @@ int main() {
     printf("A Carta 01 VENCEU\n");
     } 
 
-    else if(ponto1>ponto2)
+    else if(ponto1<ponto2)
     {
     printf("A Carta 02 VENCEU\n");
     }
@@ -108,7 +108,7 @@ int main() {
     printf("A Carta 01 VENCEU\n");
     } 
 
-    else if(pib1>pib2)
+    else if(pib1<pib2)
     {
     printf("A Carta 02 VENCEU\n");
     }
@@ -125,7 +125,7 @@ int main() {
     printf("A Carta 01 VENCEU\n");
     } 
 
-    else if(densidade1>densidade2)
+    else if(densidade1<densidade2)
     {
     printf("A Carta 02 VENCEU\n");
     }
@@ -134,6 +134,40 @@ int main() {
     {
     printf ("EMPATE entre Cartas 01 e 02\n");
     }
+
+    \\PIB per Capita 
+
+    if (capita1>capita2)
+    {
+    printf("A Carta 01 VENCEU\n");
+    } 
+
+    else if(capita1<capita2)
+    {
+    printf("A Carta 02 VENCEU\n");
+    }
+    
+    else if(capita1==capita2)
+    {
+    printf ("EMPATE entre Cartas 01 e 02\n");
+    }
+
+    \\Superpoder
+
+    if (poder1>poder2)
+    {
+    printf("A Carta 01 VENCEU\n");
+    } 
+
+    else if(poder1<poder2)
+    {
+    printf("A Carta 02 VENCEU\n");
+    }
+    
+    else if(poder1==poder2)
+    {
+    printf ("EMPATE entre Cartas 01 e 02\n");
+    }    
     
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
